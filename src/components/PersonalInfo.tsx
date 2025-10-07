@@ -3,7 +3,7 @@ import { ProgressBar } from './ProgressBar';
 
 interface PersonalInfoProps {
   onUpdate: (field: 'name' | 'email', value: string) => void;
-  onNext: () => void;
+  onNext: (emailValue?: string) => void;
   onBack: () => void;
   name: string;
   email: string;
@@ -37,12 +37,23 @@ export function PersonalInfo({ onUpdate, onNext, onBack, name, email, currentFie
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (value.trim()) {
+      console.log(`Updating ${currentField} with value:`, value.trim());
       onUpdate(currentField, value.trim());
-      onNext();
+      // For email field, pass the value directly to onNext to avoid state timing issues
+      if (currentField === 'email') {
+        onNext(value.trim());
+      } else {
+        onNext();
+      }
     }
   };
 
   const isValid = isName ? value.trim().length > 0 : /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+  
+  // Debug: Log validation status for email
+  if (!isName) {
+    console.log(`Email validation - value: "${value}", isValid: ${isValid}`);
+  }
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">

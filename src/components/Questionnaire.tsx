@@ -19,13 +19,18 @@ export function Questionnaire() {
   });
 
   const updateFormData = (field: keyof FormData, value: any) => {
-    setFormData(prev => ({
-      ...prev,
-      [field]: value
-    }));
+    console.log(`Updating form data - field: ${field}, value:`, value);
+    setFormData(prev => {
+      const newData = {
+        ...prev,
+        [field]: value
+      };
+      console.log('New form data:', newData);
+      return newData;
+    });
   };
 
-  const submitForm = async () => {
+  const submitForm = async (emailValue?: string) => {
     setIsSubmitting(true);
     setSubmitError(null);
     
@@ -35,6 +40,20 @@ export function Questionnaire() {
       if (!webhookUrl) {
         throw new Error('Webhook URL not configured');
       }
+
+      // Use the passed email value or fall back to formData.email
+      const emailToSend = emailValue || formData.email;
+
+      // Debug: Log the form data being sent
+      console.log('Form data being sent to webhook:', {
+        course: formData.course,
+        helpTypes: formData.helpTypes,
+        whenNeeded: formData.whenNeeded,
+        name: formData.name,
+        email: emailToSend,
+        timestamp: new Date().toISOString(),
+        source: 'carre-das-questionnaire'
+      });
 
       const response = await fetch(webhookUrl, {
         method: 'POST',
@@ -46,7 +65,7 @@ export function Questionnaire() {
           helpTypes: formData.helpTypes,
           whenNeeded: formData.whenNeeded,
           name: formData.name,
-          email: formData.email,
+          email: emailToSend,
           timestamp: new Date().toISOString(),
           source: 'carre-das-questionnaire'
         })
@@ -71,7 +90,7 @@ export function Questionnaire() {
     }
   };
 
-  const nextStep = () => {
+  const nextStep = (emailValue?: string) => {
     switch (currentStep) {
       case 'course':
         setCurrentStep('helpType');
@@ -87,7 +106,12 @@ export function Questionnaire() {
         break;
       case 'email':
         if (!isSubmitting) {
-          submitForm();
+          // If email value is passed directly, use it instead of formData.email
+          if (emailValue) {
+            submitForm(emailValue);
+          } else {
+            submitForm();
+          }
         }
         break;
     }
