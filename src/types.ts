@@ -14,4 +14,18 @@ export interface FormData {
   email: string;
 }
 
+export interface TutorApplicationData {
+  prenom: string;
+  nom: string;
+  email: string;
+  telephone: string;
+  domaineEtude: string[];
+  autreDomaine?: string;
+  niveauEtude: string;
+  disponibilites: string[];
+  experienceTutorat: string;
+  cvFile?: File;
+  cvUrl?: string;
+}
+
 export type Step = 'course' | 'helpType' | 'when' | 'name' | 'email' | 'thank-you';

@@ -65,6 +65,16 @@ export function CourseSelection({ onSelect, onNext }: CourseSelectionProps) {
         />
       </div>
 
+      {/* Tutor Application Button */}
+      <div className="absolute top-3 right-3 sm:top-4 sm:right-4 z-10">
+        <a
+          href="/devenez-tuteur"
+          className="inline-block bg-white/80 hover:bg-white text-gray-700 hover:text-gray-900 font-medium py-2 px-4 rounded-lg text-sm transition-all duration-200 shadow-sm hover:shadow-md border border-gray-200"
+        >
+          DEVENEZ TUTEUR
+        </a>
+      </div>
+
       {/* Main Content */}
       <div className="flex-1 flex items-center justify-center p-4 pt-20">
         <div className="max-w-2xl w-full">
