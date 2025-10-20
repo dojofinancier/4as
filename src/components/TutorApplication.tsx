@@ -82,22 +82,18 @@ export function TutorApplication() {
   };
 
   const uploadCV = async (file: File): Promise<string> => {
-    const fileExt = file.name.split('.').pop();
-    const fileName = `${Date.now()}-${Math.random().toString(36).substring(2)}.${fileExt}`;
-    
-    const { data, error } = await supabase.storage
-      .from('recruitment')
-      .upload(fileName, file);
-
-    if (error) {
-      throw new Error(`Erreur lors du téléchargement du CV: ${error.message}`);
-    }
-
-    const { data: { publicUrl } } = supabase.storage
-      .from('recruitment')
-      .getPublicUrl(fileName);
-
-    return publicUrl;
+    // Convert file to base64 for webhook transmission
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => {
+        const base64 = reader.result as string;
+        resolve(base64);
+      };
+      reader.onerror = () => {
+        reject(new Error('Erreur lors de la lecture du fichier CV'));
+      };
+      reader.readAsDataURL(file);
+    });
   };
 
   const isFormValid = () => {
@@ -129,10 +125,10 @@ export function TutorApplication() {
     setSubmitError(null);
 
     try {
-      // Upload CV to Supabase if provided
-      let cvUrl = '';
+      // Convert CV to base64 if provided
+      let cvData = null;
       if (formData.cvFile) {
-        cvUrl = await uploadCV(formData.cvFile);
+        cvData = await uploadCV(formData.cvFile);
       }
 
       // Prepare data for webhook
@@ -146,7 +142,9 @@ export function TutorApplication() {
         niveauEtude: formData.niveauEtude,
         disponibilites: formData.disponibilites,
         experienceTutorat: formData.experienceTutorat,
-        cvUrl: cvUrl,
+        cvFileName: formData.cvFile?.name || null,
+        cvFileData: cvData, // Base64 encoded file data
+        cvFileType: formData.cvFile?.type || null,
         timestamp: new Date().toISOString(),
         source: 'carre-das-tutor-application'
       };

@@ -12,13 +12,14 @@ This application requires the following environment variables to be set:
 - `VITE_MAKE_WEBHOOK_URL` - Webhook URL for student questionnaire submissions
 - `VITE_MAKE_TUTOR_WEBHOOK_URL` - Webhook URL for tutor application submissions
 
-## Supabase Storage Setup
+## CV Upload Setup
 
-For the tutor application CV uploads to work, you need to:
+The tutor application now sends CV files as base64 data through the webhook instead of uploading to Supabase storage. This avoids RLS policy issues with anonymous users.
 
-1. Create a storage bucket named `recruitment` in your Supabase project
-2. Set the bucket to public or configure appropriate RLS policies
-3. Ensure the bucket allows file uploads with the following extensions: `.pdf`, `.doc`, `.docx`
+The webhook will receive:
+- `cvFileName`: Original filename
+- `cvFileData`: Base64 encoded file content
+- `cvFileType`: MIME type of the file
 
 ## Example .env file
 
@@ -56,7 +57,9 @@ VITE_MAKE_TUTOR_WEBHOOK_URL=https://hook.eu1.make.com/your-tutor-webhook
   "niveauEtude": "string",
   "disponibilites": ["string"],
   "experienceTutorat": "string",
-  "cvUrl": "string",
+  "cvFileName": "string (optional)",
+  "cvFileData": "string (base64, optional)",
+  "cvFileType": "string (optional)",
   "timestamp": "ISO string",
   "source": "carre-das-tutor-application"
 }
