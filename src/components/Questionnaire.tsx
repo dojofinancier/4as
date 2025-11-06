@@ -4,14 +4,19 @@ import { HelpTypeSelection } from './HelpTypeSelection';
 import { WhenNeededSelection } from './WhenNeededSelection';
 import { PersonalInfo } from './PersonalInfo';
 import { ThankYou } from './ThankYou';
+import { CourseUnavailable } from './CourseUnavailable';
 import { FormData, Step } from '../types';
+import { checkCourseAvailability } from '../lib/supabase';
 
 export function Questionnaire() {
   const [currentStep, setCurrentStep] = useState<Step>('course');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
   const [formData, setFormData] = useState<FormData>({
-    course: '',
+    course: '', // For webhook (full text display)
+    courseCode: '', // For availability check
+    courseSlug: null, // For redirect
+    courseDisplayText: '', // For display/webhook
     helpTypes: [],
     whenNeeded: '',
     name: '',
@@ -75,13 +80,29 @@ export function Questionnaire() {
         throw new Error(`Webhook failed with status: ${response.status}`);
       }
 
-      // Success - proceed to thank you page
-      setCurrentStep('thank-you');
+      // Success - check course availability and redirect if available
+      try {
+        const availability = await checkCourseAvailability(formData.courseCode);
+        
+        if (availability.available && availability.slug) {
+          // Redirect to app reservation page
+          window.location.href = `https://app.carredastutorat.com/cours/${availability.slug}/reservation?code=${encodeURIComponent(formData.courseCode)}&source=lp`;
+          return; // Don't proceed to thank you page
+        } else {
+          // Course is not available - show unavailable page
+          setCurrentStep('unavailable');
+        }
+      } catch (availabilityError) {
+        // If availability check fails, show thank you page (graceful degradation)
+        console.error('Availability check error:', availabilityError);
+        setCurrentStep('thank-you');
+      }
     } catch (error) {
       console.error('Error submitting form:', error);
       setSubmitError(error instanceof Error ? error.message : 'Une erreur est survenue lors de l\'envoi');
       
       // Still proceed to thank you page after a delay to show the error
+      // (graceful degradation - availability check won't happen on webhook error)
       setTimeout(() => {
         setCurrentStep('thank-you');
       }, 3000);
@@ -138,7 +159,13 @@ export function Questionnaire() {
     case 'course':
       return (
         <CourseSelection
-          onSelect={(course) => updateFormData('course', course)}
+          onSelect={(course) => {
+            // Store all course data fields
+            updateFormData('courseCode', course.code);
+            updateFormData('courseSlug', course.slug);
+            updateFormData('courseDisplayText', course.displayText);
+            updateFormData('course', course.displayText); // For webhook backward compatibility
+          }}
           onNext={nextStep}
         />
       );
@@ -191,6 +218,14 @@ export function Questionnaire() {
 
     case 'thank-you':
       return <ThankYou />;
+
+    case 'unavailable':
+      return (
+        <CourseUnavailable 
+          courseCode={formData.courseCode} 
+          onBackToSearch={() => setCurrentStep('course')} 
+        />
+      );
 
     default:
       return null;

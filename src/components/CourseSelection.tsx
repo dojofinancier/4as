@@ -4,7 +4,7 @@ import { searchCourses } from '../lib/supabase';
 import { Course } from '../types';
 
 interface CourseSelectionProps {
-  onSelect: (course: string) => void;
+  onSelect: (course: { code: string; slug: string; displayText: string }) => void;
   onNext: () => void;
 }
 
@@ -34,17 +34,25 @@ export function CourseSelection({ onSelect, onNext }: CourseSelectionProps) {
   }, [query, selectedCourse]);
 
   const handleCourseSelect = (course: Course) => {
-    let courseText = course.full_name;
+    // Create display text for the input field
+    let courseText = course.title_fr;
     if (course.code && course.institution) {
-      courseText = `${course.full_name} (${course.code} - ${course.institution})`;
+      courseText = `${course.title_fr} (${course.code} - ${course.institution})`;
     } else if (course.code) {
-      courseText = `${course.full_name} (${course.code})`;
+      courseText = `${course.title_fr} (${course.code})`;
     }
+    
     setSelectedCourse(courseText);
     setQuery(courseText);
     setShowDropdown(false);
     setCourses([]);
-    onSelect(courseText);
+    
+    // Pass course data as object for availability check and redirect
+    onSelect({
+      code: course.code,
+      slug: course.slug,
+      displayText: courseText
+    });
   };
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -119,7 +127,7 @@ export function CourseSelection({ onSelect, onNext }: CourseSelectionProps) {
                     onClick={() => handleCourseSelect(course)}
                     className="w-full text-left p-4 hover:bg-gray-50 border-b border-gray-100 last:border-b-0 transition-colors"
                   >
-                    <div className="font-medium text-gray-900">{course.full_name}</div>
+                    <div className="font-medium text-gray-900">{course.title_fr}</div>
                     {(course.code || course.institution) && (
                       <div className="text-sm text-gray-500">
                         {course.code && course.institution 
