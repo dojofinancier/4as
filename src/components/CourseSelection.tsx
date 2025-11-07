@@ -4,7 +4,7 @@ import { searchCourses } from '../lib/supabase';
 import { Course } from '../types';
 
 interface CourseSelectionProps {
-  onSelect: (course: { code: string; slug: string; displayText: string }) => void;
+  onSelect: (course: { code: string; slug: string; displayText: string; title: string; active?: boolean }) => void;
   onNext: () => void;
 }
 
@@ -51,7 +51,9 @@ export function CourseSelection({ onSelect, onNext }: CourseSelectionProps) {
     onSelect({
       code: course.code,
       slug: course.slug,
-      displayText: courseText
+      displayText: courseText,
+      title: course.title_fr,
+      active: course.active
     });
   };
 

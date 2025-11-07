@@ -4,7 +4,6 @@ import { HelpTypeSelection } from './HelpTypeSelection';
 import { WhenNeededSelection } from './WhenNeededSelection';
 import { PersonalInfo } from './PersonalInfo';
 import { ThankYou } from './ThankYou';
-import { CourseUnavailable } from './CourseUnavailable';
 import { FormData, Step } from '../types';
 import { checkCourseAvailability } from '../lib/supabase';
 
@@ -17,6 +16,8 @@ export function Questionnaire() {
     courseCode: '', // For availability check
     courseSlug: null, // For redirect
     courseDisplayText: '', // For display/webhook
+    courseTitle: '', // Course title only (without code/institution)
+    courseActive: undefined, // Whether the course is active
     helpTypes: [],
     whenNeeded: '',
     name: '',
@@ -82,6 +83,13 @@ export function Questionnaire() {
 
       // Success - check course availability and redirect if available
       try {
+        // If course is inactive, assume no tutors and show thank you page
+        if (formData.courseActive === false) {
+          setCurrentStep('thank-you');
+          return;
+        }
+        
+        // For active courses, check availability and redirect if available
         const availability = await checkCourseAvailability(formData.courseCode);
         
         if (availability.available && availability.slug) {
@@ -89,8 +97,8 @@ export function Questionnaire() {
           window.location.href = `https://app.carredastutorat.com/cours/${availability.slug}/reservation?code=${encodeURIComponent(formData.courseCode)}&source=lp`;
           return; // Don't proceed to thank you page
         } else {
-          // Course is not available - show unavailable page
-          setCurrentStep('unavailable');
+          // Course is not available (no tutors) - show thank you page
+          setCurrentStep('thank-you');
         }
       } catch (availabilityError) {
         // If availability check fails, show thank you page (graceful degradation)
@@ -164,7 +172,9 @@ export function Questionnaire() {
             updateFormData('courseCode', course.code);
             updateFormData('courseSlug', course.slug);
             updateFormData('courseDisplayText', course.displayText);
+            updateFormData('courseTitle', course.title);
             updateFormData('course', course.displayText); // For webhook backward compatibility
+            updateFormData('courseActive', course.active);
           }}
           onNext={nextStep}
         />
@@ -217,15 +227,7 @@ export function Questionnaire() {
       );
 
     case 'thank-you':
-      return <ThankYou />;
-
-    case 'unavailable':
-      return (
-        <CourseUnavailable 
-          courseCode={formData.courseCode} 
-          onBackToSearch={() => setCurrentStep('course')} 
-        />
-      );
+      return <ThankYou courseName={formData.courseTitle} onBackToSearch={() => setCurrentStep('course')} />;
 
     default:
       return null;

@@ -1,6 +1,11 @@
 import { CheckCircle } from 'lucide-react';
 
-export function ThankYou() {
+interface ThankYouProps {
+  courseName?: string;
+  onBackToSearch?: () => void;
+}
+
+export function ThankYou({ courseName, onBackToSearch }: ThankYouProps) {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       {/* Header with Logo */}
@@ -22,9 +27,13 @@ export function ThankYou() {
         </h1>
         
         <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-          Votre demande d'aide a été envoyée avec succès. 
+          Nous avons bien reçu votre demande d'aide pour le cours de {courseName || 'ce cours'}.
           <br />
-          Nous vous contacterons très bientôt pour vous mettre en relation avec un tuteur qualifié.
+          <br />
+          Malheureusement, pour le moment nous n'avons pas de tuteur de <strong>{courseName || 'ce cours'}</strong> disponible.
+          <br />
+          <br />
+          Nous sommes présentement à la recherche d'un tuteur qualifié pour ce cours et nous vous contacterons dès que nous en trouverons un.
         </p>
         
         <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
@@ -34,18 +43,25 @@ export function ThankYou() {
           <ul className="text-left text-gray-600 space-y-3">
             <li className="flex items-start">
               <span className="text-[#00746b] mr-3">1.</span>
-              Notre équipe analyse votre demande
+              Nous recherchons un tuteur qualifié pour votre cours
             </li>
             <li className="flex items-start">
               <span className="text-[#00746b] mr-3">2.</span>
-              Nous sélectionnons le tuteur le mieux adapté
-            </li>
-            <li className="flex items-start">
-              <span className="text-[#00746b] mr-3">3.</span>
-              Vous recevez un email avec les détails de contact
+              Vous recevrez un email dès qu'un tuteur sera disponible
             </li>
           </ul>
         </div>
+
+        {onBackToSearch && (
+          <div className="mt-8">
+            <button
+              onClick={onBackToSearch}
+              className="bg-[#00746b] hover:bg-[#005a52] text-white font-semibold py-4 px-12 rounded-xl text-lg transition-colors"
+            >
+              Chercher un autre cours
+            </button>
+          </div>
+        )}
         </div>
       </div>
 

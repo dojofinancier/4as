@@ -13,6 +13,8 @@ export interface FormData {
   courseCode: string; // For availability check
   courseSlug: string | null; // For redirect
   courseDisplayText: string; // For display/webhook
+  courseTitle: string; // Course title only (without code/institution)
+  courseActive?: boolean; // Whether the course is active
   helpTypes: string[];
   whenNeeded: string;
   name: string;
@@ -39,4 +41,4 @@ export interface TutorApplicationData {
   cvUrl?: string;
 }
 
-export type Step = 'course' | 'helpType' | 'when' | 'name' | 'email' | 'thank-you' | 'unavailable';
+export type Step = 'course' | 'helpType' | 'when' | 'name' | 'email' | 'thank-you';

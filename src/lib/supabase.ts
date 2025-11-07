@@ -36,7 +36,6 @@ export async function searchCourses(query: string) {
     .from('courses')
     .select('id, code, title_fr, slug, institution, active')
     .or(`title_fr.ilike.%${query}%,code.ilike.%${query}%`)
-    .eq('active', true)
     .limit(10);
     
   if (error) {
