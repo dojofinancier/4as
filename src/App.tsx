@@ -1,12 +1,26 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 import { Questionnaire } from './components/Questionnaire';
 import { NotFound } from './components/NotFound';
 import { TutorApplication } from './components/TutorApplication';
 import { TutorThankYou } from './components/TutorThankYou';
+import { trackPageView } from './lib/analytics';
+
+// Component to track page views on route changes
+function PageViewTracker() {
+  const location = useLocation();
+
+  useEffect(() => {
+    trackPageView(location.pathname + location.search, document.title);
+  }, [location]);
+
+  return null;
+}
 
 function App() {
   return (
     <Router>
+      <PageViewTracker />
       <Routes>
         {/* Main questionnaire route */}
         <Route path="/" element={<Questionnaire />} />
