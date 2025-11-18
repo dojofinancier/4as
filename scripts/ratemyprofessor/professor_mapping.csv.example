@@ -1,0 +1,11 @@
+# Example CSV file for mapping professors to domains/departments
+# Format: domain,professor_name,institution
+# The script will search for each professor and link them to ALL courses in that domain
+# This assumes professors in a domain teach all courses in that domain
+
+Finance,John Smith,ESG-UQAM
+Finance,Jane Doe,ESG-UQAM
+Comptabilité,Robert Johnson,ESG-UQAM
+Comptabilité,Mary Williams,ESG-UQAM
+Mathématiques,David Brown,ESG-UQAM
+

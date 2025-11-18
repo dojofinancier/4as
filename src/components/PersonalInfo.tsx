@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ProgressBar } from './ProgressBar';
+import { Footer } from './Footer';
 
 interface PersonalInfoProps {
   onUpdate: (field: 'name' | 'email', value: string) => void;
@@ -56,11 +57,11 @@ export function PersonalInfo({ onUpdate, onNext, onBack, name, email, currentFie
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
+    <div className="min-h-screen bg-background flex flex-col">
       {/* Header with Logo */}
       <div className="absolute top-3 left-3 sm:top-4 sm:left-4 z-10">
         <img 
-          src="/dark_logo.png" 
+          src="/dark_logo_high.png" 
           alt="Carré d'As Tutorat" 
           className="h-10 sm:h-12 w-auto"
         />
@@ -72,7 +73,7 @@ export function PersonalInfo({ onUpdate, onNext, onBack, name, email, currentFie
         <ProgressBar currentStep={currentField} />
         
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             {title}
           </h2>
         </div>
@@ -83,7 +84,7 @@ export function PersonalInfo({ onUpdate, onNext, onBack, name, email, currentFie
             value={value}
             onChange={(e) => setValue(e.target.value)}
             placeholder={placeholder}
-            className="w-full py-6 px-6 text-xl border-2 border-gray-200 rounded-2xl focus:border-[#00746b] focus:outline-none transition-colors"
+            className="w-full py-6 px-6 text-xl border-2 border-border rounded-2xl focus:border-primary focus:outline-none transition-colors"
             autoFocus
           />
         </form>
@@ -92,25 +93,25 @@ export function PersonalInfo({ onUpdate, onNext, onBack, name, email, currentFie
           <button
             onClick={onBack}
             disabled={isSubmitting}
-            className="text-gray-600 hover:text-gray-800 disabled:text-gray-400 font-medium py-3 px-8 transition-colors"
+            className="text-muted-foreground hover:text-foreground disabled:text-muted-foreground/50 font-medium py-3 px-8 transition-colors"
           >
             Retour
           </button>
           <button
             onClick={handleSubmit}
             disabled={!isValid || isSubmitting}
-            className="bg-[#00746b] hover:bg-[#005a52] disabled:bg-gray-300 disabled:cursor-not-allowed text-white font-semibold py-4 px-12 rounded-xl text-lg transition-colors"
+            className="bg-primary hover:bg-primary/90 disabled:bg-muted disabled:cursor-not-allowed text-primary-foreground font-semibold py-4 px-12 rounded-xl text-lg transition-colors border-2 border-primary disabled:border-muted"
           >
             {isSubmitting ? 'Envoi en cours...' : (isName ? 'Continuer' : 'Envoyer')}
           </button>
         </div>
         
         {submitError && (
-          <div className="mt-4 p-4 bg-red-50 border border-red-200 rounded-lg">
-            <p className="text-red-700 text-sm">
+          <div className="mt-4 p-4 bg-error-light border border-error-border rounded-lg">
+            <p className="text-error-foreground text-sm">
               {submitError}
             </p>
-            <p className="text-red-600 text-xs mt-1">
+            <p className="text-error-foreground/80 text-xs mt-1">
               Vous serez redirigé automatiquement...
             </p>
           </div>
@@ -118,10 +119,7 @@ export function PersonalInfo({ onUpdate, onNext, onBack, name, email, currentFie
         </div>
       </div>
 
-      {/* Footer */}
-      <div className="text-center py-4 text-gray-500 text-sm">
-        © 2025 Carré d'As Tutorat. Tous droits réservés.
-      </div>
+      <Footer />
     </div>
   );
 }

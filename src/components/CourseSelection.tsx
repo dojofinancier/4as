@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Search } from 'lucide-react';
+import { Search, User } from 'lucide-react';
 import { searchCourses } from '../lib/supabase';
 import { Course } from '../types';
+import { Footer } from './Footer';
 
 interface CourseSelectionProps {
   onSelect: (course: { code: string; slug: string; displayText: string; title: string; active?: boolean }) => void;
@@ -65,23 +66,32 @@ export function CourseSelection({ onSelect, onNext }: CourseSelectionProps) {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
+    <div className="min-h-screen bg-background flex flex-col">
       {/* Header with Logo */}
       <div className="absolute top-3 left-3 sm:top-4 sm:left-4 z-10">
         <img 
-          src="/dark_logo.png" 
+          src="/dark_logo_high.png" 
           alt="Carré d'As Tutorat" 
           className="h-10 sm:h-12 w-auto"
         />
       </div>
 
-      {/* Tutor Application Button */}
-      <div className="absolute top-3 right-3 sm:top-4 sm:right-4 z-10">
+      {/* Header Buttons */}
+      <div className="absolute top-3 right-3 sm:top-4 sm:right-4 z-10 flex gap-2">
+        <a
+          href="https://app.carredastutorat.com/connexion"
+          className="inline-flex items-center justify-center bg-primary hover:bg-primary/90 text-primary-foreground font-medium py-2 px-2 sm:px-4 rounded-lg text-xs sm:text-sm transition-all duration-200 shadow-sm hover:shadow-md"
+          aria-label="Mon compte"
+        >
+          <User className="h-4 w-4 sm:hidden" />
+          <span className="hidden sm:inline">MON COMPTE</span>
+        </a>
         <a
           href="/devenez-tuteur"
-          className="inline-block bg-white/80 hover:bg-white text-gray-700 hover:text-gray-900 font-medium py-2 px-4 rounded-lg text-sm transition-all duration-200 shadow-sm hover:shadow-md border border-gray-200"
+          className="inline-block bg-card/80 hover:bg-card text-foreground/90 hover:text-foreground font-medium py-2 px-2 sm:px-4 rounded-lg text-xs sm:text-sm transition-all duration-200 shadow-sm hover:shadow-md border border-border"
         >
-          DEVENEZ TUTEUR
+          <span className="hidden sm:inline">DEVENEZ TUTEURS</span>
+          <span className="sm:hidden">TUTEURS</span>
         </a>
       </div>
 
@@ -89,7 +99,7 @@ export function CourseSelection({ onSelect, onNext }: CourseSelectionProps) {
       <div className="flex-1 flex items-center justify-center p-4 pt-20">
         <div className="max-w-2xl w-full">
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8 leading-tight">
+          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-8 leading-tight">
             J'ai besoin d'aide pour mon cours de...
           </h1>
         </div>
@@ -97,7 +107,7 @@ export function CourseSelection({ onSelect, onNext }: CourseSelectionProps) {
         <form onSubmit={handleSubmit} className="relative">
           <div className="relative">
             <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-              <Search className="h-6 w-6 text-gray-400" />
+              <Search className="h-6 w-6 text-muted-foreground/70" />
             </div>
             <input
               ref={inputRef}
@@ -112,26 +122,26 @@ export function CourseSelection({ onSelect, onNext }: CourseSelectionProps) {
                 }
               }}
               placeholder="Tapez le nom de votre cours..."
-              className="w-full pl-12 pr-4 py-6 text-xl border-2 border-gray-200 rounded-2xl focus:border-[#00746b] focus:outline-none transition-colors"
+              className="w-full pl-12 pr-4 py-6 text-xl border-2 border-border rounded-2xl focus:border-primary focus:outline-none transition-colors"
               autoComplete="off"
             />
           </div>
 
           {showDropdown && (
-            <div className="absolute z-10 w-full mt-2 bg-white border border-gray-200 rounded-xl shadow-lg max-h-60 overflow-y-auto">
+            <div className="absolute z-10 w-full mt-2 bg-card border border-border rounded-xl shadow-lg max-h-60 overflow-y-auto">
               {loading ? (
-                <div className="p-4 text-center text-gray-500">Recherche en cours...</div>
+                <div className="p-4 text-center text-muted-foreground">Recherche en cours...</div>
               ) : courses.length > 0 ? (
                 courses.map((course) => (
                   <button
                     key={course.id}
                     type="button"
                     onClick={() => handleCourseSelect(course)}
-                    className="w-full text-left p-4 hover:bg-gray-50 border-b border-gray-100 last:border-b-0 transition-colors"
+                    className="w-full text-left p-4 hover:bg-muted border-b border-border/50 last:border-b-0 transition-colors"
                   >
-                    <div className="font-medium text-gray-900">{course.title_fr}</div>
+                    <div className="font-medium text-foreground">{course.title_fr}</div>
                     {(course.code || course.institution) && (
-                      <div className="text-sm text-gray-500">
+                      <div className="text-sm text-muted-foreground">
                         {course.code && course.institution 
                           ? `${course.code} (${course.institution})`
                           : course.code || course.institution
@@ -141,7 +151,7 @@ export function CourseSelection({ onSelect, onNext }: CourseSelectionProps) {
                   </button>
                 ))
               ) : (
-                <div className="p-4 text-center text-gray-500">Aucun cours trouvé</div>
+                <div className="p-4 text-center text-muted-foreground">Aucun cours trouvé</div>
               )}
             </div>
           )}
@@ -150,7 +160,7 @@ export function CourseSelection({ onSelect, onNext }: CourseSelectionProps) {
             <button
               type="submit"
               disabled={!selectedCourse}
-              className="bg-[#00746b] hover:bg-[#005a52] disabled:bg-gray-300 disabled:cursor-not-allowed text-white font-semibold py-4 px-12 rounded-xl text-lg transition-colors"
+              className="bg-primary hover:bg-primary/90 disabled:bg-muted disabled:cursor-not-allowed text-primary-foreground font-semibold py-4 px-12 rounded-xl text-lg transition-colors border-2 border-primary disabled:border-muted"
             >
               Continuer
             </button>
@@ -159,10 +169,7 @@ export function CourseSelection({ onSelect, onNext }: CourseSelectionProps) {
         </div>
       </div>
 
-      {/* Footer */}
-      <div className="text-center py-4 text-gray-500 text-sm">
-        © 2025 Carré d'As Tutorat. Tous droits réservés.
-      </div>
+      <Footer />
     </div>
   );
 }

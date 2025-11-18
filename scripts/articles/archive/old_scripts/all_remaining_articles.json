@@ -1,0 +1,1382 @@
+[
+  {
+    "id": "ac081890-23e5-4dca-aca2-3a6b89aa77a8",
+    "slug": "comment-samÃ©liorer-en-notion",
+    "title": "Comment s'amÃ©liorer en Notion",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "77c8f6aa-f32f-4062-b463-b546524f3825",
+    "slug": "comment-developper-ses-competences-en-les-projets-de-groupe",
+    "title": "Comment dÃ©velopper ses compÃ©tences en les projets de groupe",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "cf502f1e-95ba-4f8f-b1f3-d21d2ae965e5",
+    "slug": "techniques-modernes-pour-etudier-la-comptabilite",
+    "title": "Techniques modernes pour Ã©tudier la comptabilitÃ©",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "586386ab-8612-42de-a81f-95afcb4bf900",
+    "slug": "methode-simple-pour-apprendre-le-raisonnement-logique",
+    "title": "MÃ©thode simple pour apprendre le raisonnement logique",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "94c943c1-e5ef-482a-85d9-1d61d2327692",
+    "slug": "techniques-modernes-pour-etudier-la-resolution-de-problemes",
+    "title": "Techniques modernes pour Ã©tudier la rÃ©solution de problÃ¨mes",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "a0f69681-1aaf-4aa2-ae33-5419fadb5850",
+    "slug": "methode-simple-pour-apprendre-la-reduction-du-stress",
+    "title": "MÃ©thode simple pour apprendre la rÃ©duction du stress",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "f76eb76e-f351-4d0d-b85c-b92ca7d11204",
+    "slug": "strategies-efficaces-pour-progresser-les-strategies-dexamen",
+    "title": "StratÃ©gies efficaces pour progresser les stratÃ©gies d'examen",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "885d0fc7-b720-4c06-908a-36216ab95a16",
+    "slug": "methode-rapide-pour-le-sommeil-etudiant",
+    "title": "MÃ©thode rapide pour le sommeil Ã©tudiant",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "79fd82a6-7634-4b76-bca7-bac702ce6d5d",
+    "slug": "methode-simple-pour-apprendre-les-presentations-orales",
+    "title": "MÃ©thode simple pour apprendre les prÃ©sentations orales",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "beef2a3a-3cda-4af4-adf2-911bb8f5fd4b",
+    "slug": "techniques-modernes-pour-etudier-le-marketing",
+    "title": "Techniques modernes pour Ã©tudier le marketing",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "a5a2fe96-868d-4253-9cd4-b2c24f305dcb",
+    "slug": "comment-developper-ses-competences-en-les-examens-difficiles",
+    "title": "Comment dÃ©velopper ses compÃ©tences en les examens difficiles",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "0fc0b0c7-487c-4d85-b428-646dafa31f1a",
+    "slug": "comment-developper-ses-competences-en-la-finance-de-base",
+    "title": "Comment dÃ©velopper ses compÃ©tences en la finance de base",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "b0e7025b-380b-4e8e-ad6a-2bb8534738bc",
+    "slug": "comment-samÃ©liorer-en-la-planification-de-session",
+    "title": "Comment s'amÃ©liorer en la planification de session",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "2e564434-bfe7-4235-a225-d039e7e87214",
+    "slug": "strategies-efficaces-pour-progresser-la-memorisation-active",
+    "title": "StratÃ©gies efficaces pour progresser la mÃ©morisation active",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "0996c048-8ad9-405f-b1e4-8d00747cf137",
+    "slug": "comment-developper-ses-competences-en-le-management",
+    "title": "Comment dÃ©velopper ses compÃ©tences en le management",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "5413d533-6f30-4f5f-8730-72831e784d92",
+    "slug": "approche-pratique-de-la-methodologie-universitaire",
+    "title": "Approche pratique de la mÃ©thodologie universitaire",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "c8f03b9c-7daf-4738-a3d1-e3701dd37d22",
+    "slug": "methode-rapide-pour-la-gestion-du-temps",
+    "title": "MÃ©thode rapide pour la gestion du temps",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "237e8b02-82f4-4f39-a23d-f8963e0e8668",
+    "slug": "methode-simple-pour-apprendre-la-concentration",
+    "title": "MÃ©thode simple pour apprendre la concentration",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "adf139fb-3f6c-4cd5-b5f8-2060620bb932",
+    "slug": "strategies-efficaces-pour-progresser-la-lecture-academique",
+    "title": "StratÃ©gies efficaces pour progresser la lecture acadÃ©mique",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "adf80c87-87d4-4daf-bf3e-e0173ed1c408",
+    "slug": "secrets-pour-reussir-en-lanalyse-financiere",
+    "title": "Secrets pour rÃ©ussir en l'analyse financiÃ¨re",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "d2f00b95-7c81-45fa-8b9d-4d5d3841ad07",
+    "slug": "comment-maitriser-la-concentration",
+    "title": "Comment maÃ®triser la concentration",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "1cb03234-4038-4d54-adf8-e9477fd23a87",
+    "slug": "secrets-pour-reussir-en-excel",
+    "title": "Secrets pour rÃ©ussir en Excel",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "608acce1-5449-46bc-9c59-82e5e93ad0e9",
+    "slug": "strategies-efficaces-pour-progresser-notion",
+    "title": "StratÃ©gies efficaces pour progresser Notion",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "549e99c8-ade6-4271-a24e-0e4810347d8e",
+    "slug": "techniques-avancees-pour-reussir-la-lecture-academique",
+    "title": "Techniques avancÃ©es pour rÃ©ussir la lecture acadÃ©mique",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "e6503a25-8619-4ee2-bbd5-206e7fc0edb5",
+    "slug": "strategies-efficaces-pour-progresser-la-comprehension-des-textes-complexes",
+    "title": "StratÃ©gies efficaces pour progresser la comprÃ©hension des textes complexes",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "c5bc3f82-faca-430f-b9c4-204ed7596b0c",
+    "slug": "secrets-pour-reussir-en-le-sommeil-etudiant",
+    "title": "Secrets pour rÃ©ussir en le sommeil Ã©tudiant",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "8a877feb-0d77-494a-bda4-763d1c4bbdb5",
+    "slug": "comment-maitriser-excel",
+    "title": "Comment maÃ®triser Excel",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "624f548b-3cf1-4406-a956-d4710d090232",
+    "slug": "techniques-modernes-pour-etudier-la-methodologie-universitaire",
+    "title": "Techniques modernes pour Ã©tudier la mÃ©thodologie universitaire",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "d01b8911-9776-4b72-a8ca-ffddce62cb89",
+    "slug": "comprendre-facilement-les-revisions",
+    "title": "Comprendre facilement les rÃ©visions",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "45f57fbf-91b9-4709-96f0-90acf6e66762",
+    "slug": "techniques-avancees-pour-reussir-le-marketing",
+    "title": "Techniques avancÃ©es pour rÃ©ussir le marketing",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "fd4cfe2e-a089-40cd-b447-2a60cf543a4b",
+    "slug": "comment-developper-ses-competences-en-letude-des-matieres-difficiles",
+    "title": "Comment dÃ©velopper ses compÃ©tences en l'Ã©tude des matiÃ¨res difficiles",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "01848bfa-0e08-4014-86f6-7884625187f1",
+    "slug": "techniques-modernes-pour-etudier-les-examens-difficiles",
+    "title": "Techniques modernes pour Ã©tudier les examens difficiles",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "9a66aa59-b9a2-410f-9416-418fdecd3d61",
+    "slug": "techniques-avancees-pour-reussir-la-concentration",
+    "title": "Techniques avancÃ©es pour rÃ©ussir la concentration",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "e453d644-fe3f-466b-b3c4-3570e66169f7",
+    "slug": "erreurs-courantes-a-eviter-en-excel",
+    "title": "Erreurs courantes Ã  Ã©viter en Excel",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "b1601b68-f3bf-4392-8d73-c62d0c19c231",
+    "slug": "comment-samÃ©liorer-en-les-examens-difficiles",
+    "title": "Comment s'amÃ©liorer en les examens difficiles",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "875298c9-9a1f-47e4-9e1d-991a34ef260a",
+    "slug": "guide-complet-pour-comprendre-les-etudes-de-cas",
+    "title": "Guide complet pour comprendre les Ã©tudes de cas",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "268bd836-b174-4ef2-9cfe-1b22126b8b1e",
+    "slug": "techniques-avancees-pour-reussir-la-motivation",
+    "title": "Techniques avancÃ©es pour rÃ©ussir la motivation",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "0c87b0c2-50be-4424-9dd9-a9a39067e2d5",
+    "slug": "strategies-efficaces-pour-progresser-les-revisions",
+    "title": "StratÃ©gies efficaces pour progresser les rÃ©visions",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "90ba348b-dedf-43b7-b4ea-afcbdfe52511",
+    "slug": "comprendre-facilement-les-etudes-de-cas",
+    "title": "Comprendre facilement les Ã©tudes de cas",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "d0230da2-197a-4eda-a0b6-844ea4c706fc",
+    "slug": "comment-maitriser-notion",
+    "title": "Comment maÃ®triser Notion",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "56ba2a67-4a78-4669-a152-8b229392f89b",
+    "slug": "techniques-modernes-pour-etudier-les-strategies-dexamen",
+    "title": "Techniques modernes pour Ã©tudier les stratÃ©gies d'examen",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "9cadfea4-26b9-4bc0-a698-dc50a1323ce8",
+    "slug": "comprendre-facilement-les-projets-de-groupe",
+    "title": "Comprendre facilement les projets de groupe",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "952ca36c-a7f5-45dc-b755-1812a3005bde",
+    "slug": "comment-developper-ses-competences-en-la-comprehension-des-textes-complexes",
+    "title": "Comment dÃ©velopper ses compÃ©tences en la comprÃ©hension des textes complexes",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "0338bd61-4549-4e21-b1dc-d2a1e01804b6",
+    "slug": "comprendre-facilement-la-reduction-du-stress",
+    "title": "Comprendre facilement la rÃ©duction du stress",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "0d630f0f-743d-4244-a745-a018628a2f0f",
+    "slug": "introduction-pratique-a-les-etudes-de-cas",
+    "title": "Introduction pratique Ã  les Ã©tudes de cas",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "b9386e81-9f7b-4947-9267-ef848209e991",
+    "slug": "comprendre-facilement-la-comprehension-des-textes-complexes",
+    "title": "Comprendre facilement la comprÃ©hension des textes complexes",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "380c96cf-50f4-4543-a94c-4378a344fd07",
+    "slug": "secrets-pour-reussir-en-les-projets-de-groupe",
+    "title": "Secrets pour rÃ©ussir en les projets de groupe",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "cb4a06bf-3518-4a5b-8ca6-5dde8b7b267f",
+    "slug": "erreurs-courantes-a-eviter-en-le-marketing",
+    "title": "Erreurs courantes Ã  Ã©viter en le marketing",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "2641a83f-099a-4511-b8b3-65a96c19303d",
+    "slug": "erreurs-courantes-a-eviter-en-la-gestion-du-temps",
+    "title": "Erreurs courantes Ã  Ã©viter en la gestion du temps",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "624f637b-8b4c-4140-9381-682ea459624e",
+    "slug": "guide-complet-pour-comprendre-la-memorisation-active",
+    "title": "Guide complet pour comprendre la mÃ©morisation active",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "a655f382-b68b-44ff-abab-59f3b6b91fd3",
+    "slug": "strategies-efficaces-pour-progresser-le-raisonnement-logique",
+    "title": "StratÃ©gies efficaces pour progresser le raisonnement logique",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "09670008-38c1-469e-8fcd-0d5de514bd0a",
+    "slug": "methode-simple-pour-apprendre-la-motivation",
+    "title": "MÃ©thode simple pour apprendre la motivation",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "2cd7630c-c5dc-45a7-bbb8-aec510e2b594",
+    "slug": "comprendre-facilement-la-motivation",
+    "title": "Comprendre facilement la motivation",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "bd46ba50-e5f7-4e06-95a1-340b6cd12c49",
+    "slug": "bases-essentielles-de-excel",
+    "title": "Bases essentielles de Excel",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "12cd9a1b-638e-42f5-a13d-e1a5625f7366",
+    "slug": "approche-pratique-de-notion",
+    "title": "Approche pratique de Notion",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "36568a58-7df8-4669-baf9-82e6ae92eb16",
+    "slug": "strategies-efficaces-pour-progresser-lanalyse-financiere",
+    "title": "StratÃ©gies efficaces pour progresser l'analyse financiÃ¨re",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "f1a6a5a7-2c99-49dc-847e-0dd6cb4e6a39",
+    "slug": "comment-maitriser-la-prise-de-notes",
+    "title": "Comment maÃ®triser la prise de notes",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "6210224b-94dc-4698-a6ea-12b64492cc48",
+    "slug": "comment-maitriser-la-gestion-du-temps",
+    "title": "Comment maÃ®triser la gestion du temps",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "84f558d8-66c8-4f9f-9de2-9d6c9c5015b0",
+    "slug": "introduction-pratique-a-les-presentations-orales",
+    "title": "Introduction pratique Ã  les prÃ©sentations orales",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "ce56be4f-9f47-4406-84d6-273e5b009fa0",
+    "slug": "optimiser-sa-reussite-en-le-sommeil-etudiant",
+    "title": "Optimiser sa rÃ©ussite en le sommeil Ã©tudiant",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "9ecbf967-edb2-4dd7-b55b-8410de9470f5",
+    "slug": "guide-complet-pour-comprendre-les-strategies-dexamen",
+    "title": "Guide complet pour comprendre les stratÃ©gies d'examen",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "2d5dbfd2-f904-4428-8093-bd1966c1c5f5",
+    "slug": "bases-essentielles-de-le-sommeil-etudiant",
+    "title": "Bases essentielles de le sommeil Ã©tudiant",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "66d8856d-4ed7-40f8-a8a5-016d64b218c3",
+    "slug": "optimiser-sa-reussite-en-lorganisation-personnelle",
+    "title": "Optimiser sa rÃ©ussite en l'organisation personnelle",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "fadf8835-918d-4d72-83e1-bb8d0d53b3f6",
+    "slug": "bases-essentielles-de-les-presentations-orales",
+    "title": "Bases essentielles de les prÃ©sentations orales",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "abaaaeb4-1585-4b7a-a1e1-b59689bb0328",
+    "slug": "comprendre-facilement-la-resolution-de-problemes",
+    "title": "Comprendre facilement la rÃ©solution de problÃ¨mes",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "e055530c-d1fa-4fe1-96b3-ce72cad30a86",
+    "slug": "secrets-pour-reussir-en-la-memorisation-active",
+    "title": "Secrets pour rÃ©ussir en la mÃ©morisation active",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "d2c633ff-2f29-4e7f-aaec-aa2d64ef2ac4",
+    "slug": "guide-complet-pour-comprendre-la-comptabilite",
+    "title": "Guide complet pour comprendre la comptabilitÃ©",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "c3a19148-04dd-4251-85ab-c051f308d3e9",
+    "slug": "methode-simple-pour-apprendre-la-prise-de-notes",
+    "title": "MÃ©thode simple pour apprendre la prise de notes",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "3d7f6735-7ba2-45eb-add2-d63cf652137e",
+    "slug": "comment-maitriser-la-motivation",
+    "title": "Comment maÃ®triser la motivation",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "a78d71da-e213-470f-aac3-b7e393a5e2a4",
+    "slug": "techniques-avancees-pour-reussir-le-management",
+    "title": "Techniques avancÃ©es pour rÃ©ussir le management",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "fcc017e3-2954-4749-bb18-277adb4cf80e",
+    "slug": "methode-rapide-pour-la-prise-de-notes",
+    "title": "MÃ©thode rapide pour la prise de notes",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "f3582731-659d-457c-9a02-941b0540bd52",
+    "slug": "methode-simple-pour-apprendre-les-revisions",
+    "title": "MÃ©thode simple pour apprendre les rÃ©visions",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "66f65188-cc75-4fb9-9550-54c0b2c980df",
+    "slug": "erreurs-courantes-a-eviter-en-notion",
+    "title": "Erreurs courantes Ã  Ã©viter en Notion",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "cd58ce84-d9bf-41c4-aa4f-3468d70d626d",
+    "slug": "comprendre-facilement-la-memorisation-active",
+    "title": "Comprendre facilement la mÃ©morisation active",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "4cbfdb3d-2f12-4f3a-92c1-27e6db76a993",
+    "slug": "comment-maitriser-les-projets-de-groupe",
+    "title": "Comment maÃ®triser les projets de groupe",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "324c0bfe-8fec-417a-a208-0b19cd125383",
+    "slug": "erreurs-courantes-a-eviter-en-letude-des-matieres-difficiles",
+    "title": "Erreurs courantes Ã  Ã©viter en l'Ã©tude des matiÃ¨res difficiles",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "9e22b32c-6c39-46fa-ad66-0cd482fa6b2d",
+    "slug": "techniques-avancees-pour-reussir-la-resolution-de-problemes",
+    "title": "Techniques avancÃ©es pour rÃ©ussir la rÃ©solution de problÃ¨mes",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "137073e9-1e4e-4bb4-a492-de7ee66743b0",
+    "slug": "techniques-modernes-pour-etudier-la-lecture-academique",
+    "title": "Techniques modernes pour Ã©tudier la lecture acadÃ©mique",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "3f903fd5-65e2-4b51-8642-a6dd16cada6c",
+    "slug": "introduction-pratique-a-la-comptabilite",
+    "title": "Introduction pratique Ã  la comptabilitÃ©",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "a60689c6-df28-4168-a8ef-54e0b98dc4e5",
+    "slug": "methode-simple-pour-apprendre-le-management",
+    "title": "MÃ©thode simple pour apprendre le management",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "4815eaf4-93b0-4d3e-b969-dff9925306de",
+    "slug": "optimiser-sa-reussite-en-le-raisonnement-logique",
+    "title": "Optimiser sa rÃ©ussite en le raisonnement logique",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "79d278b1-2c0d-4547-a109-171e28b7c747",
+    "slug": "methode-rapide-pour-letude-des-matieres-difficiles",
+    "title": "MÃ©thode rapide pour l'Ã©tude des matiÃ¨res difficiles",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "90270a5a-93dc-4e38-8b01-043380d16f50",
+    "slug": "methode-rapide-pour-la-methodologie-universitaire",
+    "title": "MÃ©thode rapide pour la mÃ©thodologie universitaire",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "61dc2371-3405-4819-b2fa-d5a044165a0a",
+    "slug": "comment-maitriser-les-strategies-dexamen",
+    "title": "Comment maÃ®triser les stratÃ©gies d'examen",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "58e522fc-41f8-4dc0-9b14-c27bec2230ab",
+    "slug": "approche-pratique-de-la-microeconomie",
+    "title": "Approche pratique de la microÃ©conomie",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "8d3f8d5d-231a-487c-98a2-ad4c0d9ef7a4",
+    "slug": "techniques-modernes-pour-etudier-excel",
+    "title": "Techniques modernes pour Ã©tudier Excel",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "7839546e-33d1-4147-b4ea-e437973ceb2c",
+    "slug": "techniques-avancees-pour-reussir-la-comptabilite",
+    "title": "Techniques avancÃ©es pour rÃ©ussir la comptabilitÃ©",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "f4aa355e-0752-4ec8-bc13-a15002eeabdf",
+    "slug": "comprendre-facilement-la-lecture-academique",
+    "title": "Comprendre facilement la lecture acadÃ©mique",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "c39ff0e0-531a-42ec-b688-24565c7f41d4",
+    "slug": "strategies-efficaces-pour-progresser-les-presentations-orales",
+    "title": "StratÃ©gies efficaces pour progresser les prÃ©sentations orales",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "5dad95f0-2357-40e7-8805-b6d7a640fcb5",
+    "slug": "comment-samÃ©liorer-en-la-reduction-du-stress",
+    "title": "Comment s'amÃ©liorer en la rÃ©duction du stress",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "aaa3a554-4968-46b5-bf4d-dff4c16aaf2b",
+    "slug": "strategies-efficaces-pour-progresser-la-prise-de-notes",
+    "title": "StratÃ©gies efficaces pour progresser la prise de notes",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "3b828002-bc81-4b96-83ad-e422345e994c",
+    "slug": "techniques-avancees-pour-reussir-lanalyse-financiere",
+    "title": "Techniques avancÃ©es pour rÃ©ussir l'analyse financiÃ¨re",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "f02fa9b2-b134-4de9-94f4-d4bbf0eb5ac8",
+    "slug": "erreurs-courantes-a-eviter-en-la-comptabilite",
+    "title": "Erreurs courantes Ã  Ã©viter en la comptabilitÃ©",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "d4b027f5-9b5f-4e4d-8178-b9594198063c",
+    "slug": "optimiser-sa-reussite-en-les-strategies-dexamen",
+    "title": "Optimiser sa rÃ©ussite en les stratÃ©gies d'examen",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "bf301467-f1fd-4034-aba8-e3d46d5eb01f",
+    "slug": "guide-complet-pour-comprendre-la-finance-de-base",
+    "title": "Guide complet pour comprendre la finance de base",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "7139bb2e-5cb4-4522-a39f-ac4560f91d79",
+    "slug": "approche-pratique-de-la-planification-de-session",
+    "title": "Approche pratique de la planification de session",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "c27c466d-1eb5-49d3-95dc-fee82ebcef44",
+    "slug": "optimiser-sa-reussite-en-la-planification-de-session",
+    "title": "Optimiser sa rÃ©ussite en la planification de session",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "ddb0b9bb-9bab-42e6-abb6-01499406641c",
+    "slug": "optimiser-sa-reussite-en-la-resolution-de-problemes",
+    "title": "Optimiser sa rÃ©ussite en la rÃ©solution de problÃ¨mes",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "3dec807e-40c0-4788-a0c9-b0e3e2d15b29",
+    "slug": "bases-essentielles-de-les-statistiques",
+    "title": "Bases essentielles de les statistiques",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "110a8d25-fc7d-480b-93d2-ae88bbf56913",
+    "slug": "guide-complet-pour-comprendre-les-revisions",
+    "title": "Guide complet pour comprendre les rÃ©visions",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "e564bfd3-46f1-4fd1-8f02-35b7d2681f58",
+    "slug": "secrets-pour-reussir-en-les-revisions",
+    "title": "Secrets pour rÃ©ussir en les rÃ©visions",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "5125c93a-8c7c-4fb8-94c6-2422bcedba99",
+    "slug": "comment-maitriser-la-lecture-academique",
+    "title": "Comment maÃ®triser la lecture acadÃ©mique",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "bc728717-5e13-492b-ad79-f5834a2b9ce0",
+    "slug": "methode-simple-pour-apprendre-les-strategies-dexamen",
+    "title": "MÃ©thode simple pour apprendre les stratÃ©gies d'examen",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "a3ca38f6-89b7-4b79-9214-f425fdb4a1bb",
+    "slug": "approche-pratique-de-letude-des-matieres-difficiles",
+    "title": "Approche pratique de l'Ã©tude des matiÃ¨res difficiles",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "623d12d2-971e-40b0-81d1-c34c01def54f",
+    "slug": "methode-simple-pour-apprendre-les-statistiques",
+    "title": "MÃ©thode simple pour apprendre les statistiques",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "79e5533b-a494-45fc-9bb3-49bd719f19a5",
+    "slug": "optimiser-sa-reussite-en-les-etudes-de-cas",
+    "title": "Optimiser sa rÃ©ussite en les Ã©tudes de cas",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "8310acef-baff-461b-a4a4-be474ebc9e44",
+    "slug": "methode-simple-pour-apprendre-lanalyse-financiere",
+    "title": "MÃ©thode simple pour apprendre l'analyse financiÃ¨re",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "9041b1aa-cd16-49e4-9b22-2b947b5b19d0",
+    "slug": "techniques-avancees-pour-reussir-la-prise-de-notes",
+    "title": "Techniques avancÃ©es pour rÃ©ussir la prise de notes",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "5868733a-63d4-4c2d-bd83-294d8f24eba5",
+    "slug": "erreurs-courantes-a-eviter-en-les-strategies-dexamen",
+    "title": "Erreurs courantes Ã  Ã©viter en les stratÃ©gies d'examen",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "bf72ea8d-660a-4d98-9066-438832171ddd",
+    "slug": "methode-rapide-pour-le-marketing",
+    "title": "MÃ©thode rapide pour le marketing",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "868db972-d22f-47db-a0a8-7e736b3f9b19",
+    "slug": "comprendre-facilement-la-microeconomie",
+    "title": "Comprendre facilement la microÃ©conomie",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "00685bc3-e9fb-46ae-874f-f621c89930bd",
+    "slug": "methode-simple-pour-apprendre-la-microeconomie",
+    "title": "MÃ©thode simple pour apprendre la microÃ©conomie",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "84ae41e6-2018-4cf8-a019-41f330fd1b79",
+    "slug": "comment-samÃ©liorer-en-les-etudes-de-cas",
+    "title": "Comment s'amÃ©liorer en les Ã©tudes de cas",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "98406e8d-d1a1-4c4f-9ace-f89dca574454",
+    "slug": "comment-maitriser-les-examens-difficiles",
+    "title": "Comment maÃ®triser les examens difficiles",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "c82deb19-c872-40ff-bcdf-d164d785df8b",
+    "slug": "bases-essentielles-de-lorganisation-personnelle",
+    "title": "Bases essentielles de l'organisation personnelle",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "5833e73b-0122-41c5-898c-142c1cc0ba15",
+    "slug": "bases-essentielles-de-les-revisions",
+    "title": "Bases essentielles de les rÃ©visions",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "bfec9eda-8fff-481c-a1d6-8e97e0b239bd",
+    "slug": "bases-essentielles-de-la-gestion-du-temps",
+    "title": "Bases essentielles de la gestion du temps",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "d9e43075-37f3-4bf1-9be0-a706e56940da",
+    "slug": "approche-pratique-de-les-examens-difficiles",
+    "title": "Approche pratique de les examens difficiles",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "520dcdda-c06f-4db3-9226-bb21f31cdbf4",
+    "slug": "introduction-pratique-a-la-motivation",
+    "title": "Introduction pratique Ã  la motivation",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "c5ec4e93-09bf-4572-be25-e8806ef41d84",
+    "slug": "techniques-modernes-pour-etudier-les-presentations-orales",
+    "title": "Techniques modernes pour Ã©tudier les prÃ©sentations orales",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "2f95f374-c665-4958-8b81-2f92fc28de5c",
+    "slug": "methode-rapide-pour-la-microeconomie",
+    "title": "MÃ©thode rapide pour la microÃ©conomie",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "ab6608fc-467d-4061-b1a8-e7d44464706e",
+    "slug": "introduction-pratique-a-la-microeconomie",
+    "title": "Introduction pratique Ã  la microÃ©conomie",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "540b4dfd-44f5-4b5d-b7fe-dd630d525caf",
+    "slug": "erreurs-courantes-a-eviter-en-les-projets-de-groupe",
+    "title": "Erreurs courantes Ã  Ã©viter en les projets de groupe",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "7ccfe17e-e2c4-4cd9-b3e8-8b3e40d01d4f",
+    "slug": "erreurs-courantes-a-eviter-en-la-memorisation-active",
+    "title": "Erreurs courantes Ã  Ã©viter en la mÃ©morisation active",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "bea1afab-4cc4-44a0-a8de-f505d102d487",
+    "slug": "techniques-modernes-pour-etudier-la-motivation",
+    "title": "Techniques modernes pour Ã©tudier la motivation",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "9b7e808b-abc8-4d4d-b01a-4c9c5a8eeef1",
+    "slug": "approche-pratique-de-les-statistiques",
+    "title": "Approche pratique de les statistiques",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "f1f50958-1e7a-44e1-9af5-1924f6f0527b",
+    "slug": "erreurs-courantes-a-eviter-en-le-raisonnement-logique",
+    "title": "Erreurs courantes Ã  Ã©viter en le raisonnement logique",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "c3bff8f4-e8a6-4806-b339-d89926b6f63b",
+    "slug": "bases-essentielles-de-la-memorisation-active",
+    "title": "Bases essentielles de la mÃ©morisation active",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "8ed92693-01de-4def-a924-58ef6841d36f",
+    "slug": "bases-essentielles-de-la-comptabilite",
+    "title": "Bases essentielles de la comptabilitÃ©",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "2393a880-bc80-4232-8af1-776ee85f6427",
+    "slug": "comment-maitriser-la-finance-de-base",
+    "title": "Comment maÃ®triser la finance de base",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "97070b69-3ac6-4e7b-823a-811065941002",
+    "slug": "comprendre-facilement-la-methodologie-universitaire",
+    "title": "Comprendre facilement la mÃ©thodologie universitaire",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "2466090a-4226-48ee-9b78-567a352553b4",
+    "slug": "guide-complet-pour-comprendre-la-comprehension-des-textes-complexes",
+    "title": "Guide complet pour comprendre la comprÃ©hension des textes complexes",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "5c29a33d-32ea-4c92-920e-a39bc94f4a5b",
+    "slug": "guide-complet-pour-comprendre-letude-des-matieres-difficiles",
+    "title": "Guide complet pour comprendre l'Ã©tude des matiÃ¨res difficiles",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "ce85ab35-04bd-4d02-9669-eb74d54f2021",
+    "slug": "approche-pratique-de-la-memorisation-active",
+    "title": "Approche pratique de la mÃ©morisation active",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "367f2c64-0e28-4d1e-b767-30310c3fa39f",
+    "slug": "optimiser-sa-reussite-en-la-microeconomie",
+    "title": "Optimiser sa rÃ©ussite en la microÃ©conomie",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "85e9b379-7285-44a6-a6c3-dd11af6a68ed",
+    "slug": "comment-samÃ©liorer-en-les-presentations-orales",
+    "title": "Comment s'amÃ©liorer en les prÃ©sentations orales",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "0ac9b166-9b95-468f-8d4c-fe3545b7cf85",
+    "slug": "strategies-efficaces-pour-progresser-la-resolution-de-problemes",
+    "title": "StratÃ©gies efficaces pour progresser la rÃ©solution de problÃ¨mes",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "33a3a4e3-89c4-427f-9454-dd6d69851e0f",
+    "slug": "comment-samÃ©liorer-en-les-revisions",
+    "title": "Comment s'amÃ©liorer en les rÃ©visions",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "22984179-2750-4289-b7f1-2f2ff7d147dd",
+    "slug": "bases-essentielles-de-la-microeconomie",
+    "title": "Bases essentielles de la microÃ©conomie",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "1dec473e-cff0-42c2-a72f-ff34d91a2a32",
+    "slug": "comment-maitriser-la-reduction-du-stress",
+    "title": "Comment maÃ®triser la rÃ©duction du stress",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "a483a6b8-9e53-4bb1-97c6-72a68893e8da",
+    "slug": "strategies-efficaces-pour-progresser-lorganisation-personnelle",
+    "title": "StratÃ©gies efficaces pour progresser l'organisation personnelle",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "9c60cf80-0937-4242-86d6-c9b9093ae07d",
+    "slug": "erreurs-courantes-a-eviter-en-les-etudes-de-cas",
+    "title": "Erreurs courantes Ã  Ã©viter en les Ã©tudes de cas",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "2b8db071-5853-4da8-b4d8-467022b2cf0e",
+    "slug": "strategies-efficaces-pour-progresser-la-motivation",
+    "title": "StratÃ©gies efficaces pour progresser la motivation",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "74667fef-cf22-4ce0-a006-62e0a17a50ff",
+    "slug": "introduction-pratique-a-letude-des-matieres-difficiles",
+    "title": "Introduction pratique Ã  l'Ã©tude des matiÃ¨res difficiles",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "7d0a089c-8a4c-4132-8f3b-f57786778aad",
+    "slug": "methode-rapide-pour-le-management",
+    "title": "MÃ©thode rapide pour le management",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "030ebf67-a40d-4b54-92c8-8fb19c5a0591",
+    "slug": "strategies-efficaces-pour-progresser-la-concentration",
+    "title": "StratÃ©gies efficaces pour progresser la concentration",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "84cb7681-b011-4cf4-9beb-b0fe92082fd9",
+    "slug": "optimiser-sa-reussite-en-la-comptabilite",
+    "title": "Optimiser sa rÃ©ussite en la comptabilitÃ©",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "057e70fa-51e4-48da-b0be-ec46d893a24c",
+    "slug": "erreurs-courantes-a-eviter-en-les-presentations-orales",
+    "title": "Erreurs courantes Ã  Ã©viter en les prÃ©sentations orales",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "bacb2d28-152e-420d-90f9-0a2e8bd521f2",
+    "slug": "erreurs-courantes-a-eviter-en-les-statistiques",
+    "title": "Erreurs courantes Ã  Ã©viter en les statistiques",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "9c9cde27-2861-40db-9dbe-3cf238871087",
+    "slug": "techniques-avancees-pour-reussir-letude-des-matieres-difficiles",
+    "title": "Techniques avancÃ©es pour rÃ©ussir l'Ã©tude des matiÃ¨res difficiles",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "c1298a74-46d6-4906-b25d-36c5e9047067",
+    "slug": "guide-complet-pour-comprendre-les-presentations-orales",
+    "title": "Guide complet pour comprendre les prÃ©sentations orales",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "e044fc3c-24e0-48cc-9ec1-53ee35e3766e",
+    "slug": "methode-simple-pour-apprendre-letude-des-matieres-difficiles",
+    "title": "MÃ©thode simple pour apprendre l'Ã©tude des matiÃ¨res difficiles",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "8a732ab4-d5a9-47a3-a0b5-e9a71c4b84b2",
+    "slug": "bases-essentielles-de-la-prise-de-notes",
+    "title": "Bases essentielles de la prise de notes",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "0f33ace5-d33b-4346-9f68-d78e794779af",
+    "slug": "comprendre-facilement-la-concentration",
+    "title": "Comprendre facilement la concentration",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "a7ae2ab9-1111-4085-8f5a-e940dd2cdcc3",
+    "slug": "techniques-modernes-pour-etudier-notion",
+    "title": "Techniques modernes pour Ã©tudier Notion",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "02f94c64-f66d-4340-bf4f-45395a8011aa",
+    "slug": "techniques-avancees-pour-reussir-excel",
+    "title": "Techniques avancÃ©es pour rÃ©ussir Excel",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "ef418b06-8cf8-41a5-89e3-b648cff7f28a",
+    "slug": "optimiser-sa-reussite-en-la-concentration",
+    "title": "Optimiser sa rÃ©ussite en la concentration",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "48b450b7-d21d-4c35-9056-77d36fc0854c",
+    "slug": "optimiser-sa-reussite-en-la-comprehension-des-textes-complexes",
+    "title": "Optimiser sa rÃ©ussite en la comprÃ©hension des textes complexes",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "01864f92-894b-4b67-8544-e31d9868b014",
+    "slug": "techniques-modernes-pour-etudier-la-memorisation-active",
+    "title": "Techniques modernes pour Ã©tudier la mÃ©morisation active",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "b39ad967-c11b-4710-a119-c8ad11cf06d1",
+    "slug": "comment-maitriser-la-microeconomie",
+    "title": "Comment maÃ®triser la microÃ©conomie",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "ee0307e8-fbdc-4432-ad76-5a3b83f7cf57",
+    "slug": "techniques-modernes-pour-etudier-la-gestion-du-temps",
+    "title": "Techniques modernes pour Ã©tudier la gestion du temps",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "4ccf38ce-be35-4e4f-8d72-225b5fc135fd",
+    "slug": "methode-rapide-pour-la-reduction-du-stress",
+    "title": "MÃ©thode rapide pour la rÃ©duction du stress",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "3b045643-c285-47f0-b567-6cb3b8a05399",
+    "slug": "bases-essentielles-de-la-lecture-academique",
+    "title": "Bases essentielles de la lecture acadÃ©mique",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "7edd0a6a-5fc7-4b33-aca3-01669af74bf9",
+    "slug": "guide-complet-pour-comprendre-la-planification-de-session",
+    "title": "Guide complet pour comprendre la planification de session",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "a6fe9a13-d125-4e55-a00f-f7771e103f70",
+    "slug": "strategies-efficaces-pour-progresser-la-comptabilite",
+    "title": "StratÃ©gies efficaces pour progresser la comptabilitÃ©",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "b105f3d5-2d3b-48ae-9aba-eec9684d597e",
+    "slug": "comment-samÃ©liorer-en-la-prise-de-notes",
+    "title": "Comment s'amÃ©liorer en la prise de notes",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "7e0192e6-8578-481f-9a52-053471c171d7",
+    "slug": "introduction-pratique-a-le-marketing",
+    "title": "Introduction pratique Ã  le marketing",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "cad7ac1f-5c12-4f48-94c6-37574aefff75",
+    "slug": "comment-samÃ©liorer-en-la-comptabilite",
+    "title": "Comment s'amÃ©liorer en la comptabilitÃ©",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "2845edf1-56e9-4f4a-9a2a-44b549762eb1",
+    "slug": "bases-essentielles-de-la-reduction-du-stress",
+    "title": "Bases essentielles de la rÃ©duction du stress",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "4f9843ca-086d-46bc-9a0b-a4cd4cf0a8ff",
+    "slug": "introduction-pratique-a-la-methodologie-universitaire",
+    "title": "Introduction pratique Ã  la mÃ©thodologie universitaire",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "e2663bd5-5ae5-4e37-8e5b-0993cb161081",
+    "slug": "bases-essentielles-de-la-finance-de-base",
+    "title": "Bases essentielles de la finance de base",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "25053817-52b5-4b3c-a6e5-42cceba44a86",
+    "slug": "techniques-modernes-pour-etudier-le-sommeil-etudiant",
+    "title": "Techniques modernes pour Ã©tudier le sommeil Ã©tudiant",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "7f464b08-5ea8-4e90-bb91-479b341cc79c",
+    "slug": "optimiser-sa-reussite-en-le-management",
+    "title": "Optimiser sa rÃ©ussite en le management",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "f481c360-400c-4749-aa57-b71769ca536c",
+    "slug": "comprendre-facilement-letude-des-matieres-difficiles",
+    "title": "Comprendre facilement l'Ã©tude des matiÃ¨res difficiles",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "07e6d56b-1ae9-44db-af47-847083a2101b",
+    "slug": "comment-developper-ses-competences-en-la-concentration",
+    "title": "Comment dÃ©velopper ses compÃ©tences en la concentration",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "fcd5443a-ed56-479f-a364-f13a37635524",
+    "slug": "comment-developper-ses-competences-en-la-memorisation-active",
+    "title": "Comment dÃ©velopper ses compÃ©tences en la mÃ©morisation active",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "ebeb5f92-f645-4e33-8c14-fa6dc7854dcc",
+    "slug": "guide-complet-pour-comprendre-lorganisation-personnelle",
+    "title": "Guide complet pour comprendre l'organisation personnelle",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "7ed51155-ecb0-42b3-8db8-8ee7f00ea630",
+    "slug": "bases-essentielles-de-les-projets-de-groupe",
+    "title": "Bases essentielles de les projets de groupe",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "f22d1a6e-94ce-4d89-b9f4-77d758280338",
+    "slug": "comment-samÃ©liorer-en-la-gestion-du-temps",
+    "title": "Comment s'amÃ©liorer en la gestion du temps",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "465128de-f27b-4cf9-b875-3d33733d7d5e",
+    "slug": "comment-maitriser-lanalyse-financiere",
+    "title": "Comment maÃ®triser l'analyse financiÃ¨re",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "ee868310-04ad-4bd5-b3a6-a910bfebd2fd",
+    "slug": "erreurs-courantes-a-eviter-en-la-planification-de-session",
+    "title": "Erreurs courantes Ã  Ã©viter en la planification de session",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "2d5b4568-e50c-4283-84e1-b28685fb97f1",
+    "slug": "methode-rapide-pour-la-lecture-academique",
+    "title": "MÃ©thode rapide pour la lecture acadÃ©mique",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "356e1474-2161-436d-97db-be42a405779d",
+    "slug": "approche-pratique-de-la-motivation",
+    "title": "Approche pratique de la motivation",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "5761539a-a238-411a-9bfd-82ffb99d3c73",
+    "slug": "techniques-avancees-pour-reussir-la-comprehension-des-textes-complexes",
+    "title": "Techniques avancÃ©es pour rÃ©ussir la comprÃ©hension des textes complexes",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "aba26c3e-871a-4ef9-bac6-b14e21598d55",
+    "slug": "approche-pratique-de-les-etudes-de-cas",
+    "title": "Approche pratique de les Ã©tudes de cas",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "2bba60a0-1866-42de-bbc3-f9f2494c77d2",
+    "slug": "secrets-pour-reussir-en-la-methodologie-universitaire",
+    "title": "Secrets pour rÃ©ussir en la mÃ©thodologie universitaire",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "390a3a65-a352-4a90-a2fd-336c7ca34e35",
+    "slug": "comprendre-facilement-la-comptabilite",
+    "title": "Comprendre facilement la comptabilitÃ©",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "23287413-8c1e-4ac1-a32d-22232537e7ad",
+    "slug": "comment-developper-ses-competences-en-notion",
+    "title": "Comment dÃ©velopper ses compÃ©tences en Notion",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "1afe0b81-743a-468f-b90d-78545cc20ec2",
+    "slug": "comment-samÃ©liorer-en-le-raisonnement-logique",
+    "title": "Comment s'amÃ©liorer en le raisonnement logique",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "75e54865-255b-4c90-81c6-35003a7166e7",
+    "slug": "methode-rapide-pour-la-comptabilite",
+    "title": "MÃ©thode rapide pour la comptabilitÃ©",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "c6961c65-cf34-4a7e-971f-8abff950b0b4",
+    "slug": "erreurs-courantes-a-eviter-en-la-motivation",
+    "title": "Erreurs courantes Ã  Ã©viter en la motivation",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "ba8ea412-6d1d-4225-aa97-60f9b99105fa",
+    "slug": "comment-samÃ©liorer-en-excel",
+    "title": "Comment s'amÃ©liorer en Excel",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "92ae6336-d64f-4647-9c05-63010a56819a",
+    "slug": "comment-samÃ©liorer-en-la-methodologie-universitaire",
+    "title": "Comment s'amÃ©liorer en la mÃ©thodologie universitaire",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "ea9e56d3-2c00-4d66-9f2a-de103b5588a4",
+    "slug": "secrets-pour-reussir-en-lorganisation-personnelle",
+    "title": "Secrets pour rÃ©ussir en l'organisation personnelle",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "223348fd-5bec-4928-aa62-6ba803867cdb",
+    "slug": "methode-rapide-pour-les-strategies-dexamen",
+    "title": "MÃ©thode rapide pour les stratÃ©gies d'examen",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "2689962c-56d1-4043-9c02-08ec787f9c26",
+    "slug": "strategies-efficaces-pour-progresser-le-management",
+    "title": "StratÃ©gies efficaces pour progresser le management",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "0418bff4-e95c-4985-8af1-65923c0088cd",
+    "slug": "techniques-modernes-pour-etudier-la-comprehension-des-textes-complexes",
+    "title": "Techniques modernes pour Ã©tudier la comprÃ©hension des textes complexes",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "0df338d9-9671-4626-ac6a-cd787c47f98f",
+    "slug": "erreurs-courantes-a-eviter-en-la-comprehension-des-textes-complexes",
+    "title": "Erreurs courantes Ã  Ã©viter en la comprÃ©hension des textes complexes",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "6086da2f-34c6-4dce-bc86-af41ab416f1b",
+    "slug": "methode-rapide-pour-la-finance-de-base",
+    "title": "MÃ©thode rapide pour la finance de base",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "c576bd37-6d44-4a2f-bbb2-410f27cf42d8",
+    "slug": "comment-developper-ses-competences-en-la-gestion-du-temps",
+    "title": "Comment dÃ©velopper ses compÃ©tences en la gestion du temps",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "d04cdd33-9ce6-45e2-8971-7638456a17c0",
+    "slug": "bases-essentielles-de-la-concentration",
+    "title": "Bases essentielles de la concentration",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "d3886938-165b-4152-9ddf-984f5a0907e4",
+    "slug": "techniques-modernes-pour-etudier-la-prise-de-notes",
+    "title": "Techniques modernes pour Ã©tudier la prise de notes",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "51c49e6c-249f-4810-b174-14f86cc899b5",
+    "slug": "introduction-pratique-a-la-memorisation-active",
+    "title": "Introduction pratique Ã  la mÃ©morisation active",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "a76d27ab-c3f0-49a4-860b-e4e13da57d04",
+    "slug": "approche-pratique-de-excel",
+    "title": "Approche pratique de Excel",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "6a01546d-d043-4469-8b46-28f9b247762e",
+    "slug": "approche-pratique-de-la-finance-de-base",
+    "title": "Approche pratique de la finance de base",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "e571d9f3-3ee2-4911-9264-505033189f22",
+    "slug": "comment-developper-ses-competences-en-la-methodologie-universitaire",
+    "title": "Comment dÃ©velopper ses compÃ©tences en la mÃ©thodologie universitaire",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "9deaffc0-5fa9-4eee-9fd1-7cd6d6d0f23d",
+    "slug": "techniques-avancees-pour-reussir-le-raisonnement-logique",
+    "title": "Techniques avancÃ©es pour rÃ©ussir le raisonnement logique",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "328dfe52-2395-4a44-8027-14b88c246772",
+    "slug": "comment-maitriser-les-etudes-de-cas",
+    "title": "Comment maÃ®triser les Ã©tudes de cas",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "75107dd7-0a2d-4ce0-8683-887703e6b84d",
+    "slug": "comment-developper-ses-competences-en-la-resolution-de-problemes",
+    "title": "Comment dÃ©velopper ses compÃ©tences en la rÃ©solution de problÃ¨mes",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "906b560b-9683-4694-8d27-5ee93e42477c",
+    "slug": "strategies-efficaces-pour-progresser-la-planification-de-session",
+    "title": "StratÃ©gies efficaces pour progresser la planification de session",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "f73486c8-9099-4cc6-8f0f-d26e5ef5bbee",
+    "slug": "secrets-pour-reussir-en-letude-des-matieres-difficiles",
+    "title": "Secrets pour rÃ©ussir en l'Ã©tude des matiÃ¨res difficiles",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "e245c676-427b-460c-8c51-a125fa877750",
+    "slug": "comment-samÃ©liorer-en-la-motivation",
+    "title": "Comment s'amÃ©liorer en la motivation",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "393de539-90fc-4c50-81ec-178c98228c2d",
+    "slug": "secrets-pour-reussir-en-le-marketing",
+    "title": "Secrets pour rÃ©ussir en le marketing",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "ee739a5e-66f7-42a8-b5f3-6cb734e95ffc",
+    "slug": "methode-rapide-pour-le-raisonnement-logique",
+    "title": "MÃ©thode rapide pour le raisonnement logique",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "639f70c6-6a39-454c-9176-43bb26b50b01",
+    "slug": "comprendre-facilement-la-finance-de-base",
+    "title": "Comprendre facilement la finance de base",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "ea1c40a2-47a7-400b-862b-8a9490dbeebc",
+    "slug": "methode-rapide-pour-la-concentration",
+    "title": "MÃ©thode rapide pour la concentration",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "7e483a61-f1d4-41c8-90af-fe3f80d6a987",
+    "slug": "techniques-avancees-pour-reussir-la-planification-de-session",
+    "title": "Techniques avancÃ©es pour rÃ©ussir la planification de session",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "0a9df0d6-636a-4fbe-8b91-843b8d70e4de",
+    "slug": "comment-developper-ses-competences-en-la-microeconomie",
+    "title": "Comment dÃ©velopper ses compÃ©tences en la microÃ©conomie",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "cee2eedc-883e-4e08-8559-39675ad2f855",
+    "slug": "optimiser-sa-reussite-en-la-memorisation-active",
+    "title": "Optimiser sa rÃ©ussite en la mÃ©morisation active",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "ebe1f226-fce3-48cb-9914-a52b943e1e3a",
+    "slug": "techniques-avancees-pour-reussir-notion",
+    "title": "Techniques avancÃ©es pour rÃ©ussir Notion",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "78fa023a-83ce-4b08-a45b-b3bf9f2221c9",
+    "slug": "introduction-pratique-a-la-reduction-du-stress",
+    "title": "Introduction pratique Ã  la rÃ©duction du stress",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "28f0cc31-5d59-4f76-a041-260154985456",
+    "slug": "comprendre-facilement-le-management",
+    "title": "Comprendre facilement le management",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "02a7db68-7cb3-4059-b7ec-90782214e7eb",
+    "slug": "comment-samÃ©liorer-en-la-memorisation-active",
+    "title": "Comment s'amÃ©liorer en la mÃ©morisation active",
+    "category": "Vie universitaire & bien-Ãªtre"
+  },
+  {
+    "id": "d6f6c750-5863-4d7f-ae92-dc0020220a21",
+    "slug": "bases-essentielles-de-le-marketing",
+    "title": "Bases essentielles de le marketing",
+    "category": "Travaux, prÃ©sentations & Ã©tudes de cas"
+  },
+  {
+    "id": "0936df8e-4770-4d38-ae66-af5dafa2056e",
+    "slug": "comment-samÃ©liorer-en-la-concentration",
+    "title": "Comment s'amÃ©liorer en la concentration",
+    "category": "Outils & technologie"
+  },
+  {
+    "id": "ae23e1fd-c26b-4ca6-8ee7-fffd739be6a0",
+    "slug": "approche-pratique-de-les-revisions",
+    "title": "Approche pratique de les rÃ©visions",
+    "category": "MÃ©thodes d'Ã©tude & productivitÃ©"
+  },
+  {
+    "id": "46282c69-288e-4147-b0cb-90f2021ef19e",
+    "slug": "guide-complet-pour-comprendre-la-gestion-du-temps",
+    "title": "Guide complet pour comprendre la gestion du temps",
+    "category": "RÃ©ussite aux examens"
+  },
+  {
+    "id": "7e8034fc-b92b-4af9-8c9d-825726e5ce96",
+    "slug": "comprendre-facilement-le-marketing",
+    "title": "Comprendre facilement le marketing",
+    "category": "Conseils par matiÃ¨res"
+  },
+  {
+    "id": "16cec4df-1528-4868-af50-aed32cac43ab",
+    "slug": "approche-pratique-de-le-management",
+    "title": "Approche pratique de le management",
+    "category": "Orientation universitaire & carriÃ¨re"
+  },
+  {
+    "id": "81b9ee12-918c-48a2-b1c8-7fcb59ce54dc",
+    "slug": "optimiser-sa-reussite-en-le-marketing",
+    "title": "Optimiser sa rÃ©ussite en le marketing",
+    "category": "Vie universitaire & bien-Ãªtre"
+  }
+]

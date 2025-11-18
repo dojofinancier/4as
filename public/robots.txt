@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /devenez-tuteur/merci
+Sitemap: https://carredastutorat.com/sitemap.xml
+

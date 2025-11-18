@@ -1,0 +1,82 @@
+import { Footer } from './Footer';
+import { User } from 'lucide-react';
+
+export function TermesEtConditions() {
+  return (
+    <div className="min-h-screen bg-background">
+      {/* Header with Logo */}
+      <div className="absolute top-3 left-3 sm:top-4 sm:left-4 z-10">
+        <a href="/">
+          <img 
+            src="/dark_logo_high.png" 
+            alt="Carré d'As Tutorat" 
+            className="h-10 sm:h-12 w-auto"
+          />
+        </a>
+      </div>
+
+      {/* Header Buttons */}
+      <div className="absolute top-3 right-3 sm:top-4 sm:right-4 z-10 flex gap-2">
+        <a
+          href="https://app.carredastutorat.com/connexion"
+          className="inline-flex items-center justify-center bg-primary hover:bg-primary/90 text-primary-foreground font-medium py-2 px-2 sm:px-4 rounded-lg text-xs sm:text-sm transition-all duration-200 shadow-sm hover:shadow-md"
+          aria-label="Mon compte"
+        >
+          <User className="h-4 w-4 sm:hidden" />
+          <span className="hidden sm:inline">MON COMPTE</span>
+        </a>
+        <a
+          href="/devenez-tuteur"
+          className="inline-block bg-card/80 hover:bg-card text-foreground/90 hover:text-foreground font-medium py-2 px-2 sm:px-4 rounded-lg text-xs sm:text-sm transition-all duration-200 shadow-sm hover:shadow-md border border-border"
+        >
+          <span className="hidden sm:inline">DEVENEZ TUTEURS</span>
+          <span className="sm:hidden">TUTEURS</span>
+        </a>
+      </div>
+
+      <div className="container mx-auto px-4 py-12 pt-20 max-w-4xl">
+        <article className="prose prose-lg max-w-none">
+          <h1 className="text-4xl font-bold text-foreground mb-8">Termes et conditions</h1>
+          
+          <p className="text-foreground mb-4">
+            Le Dojo Financier est une marque de Carré d'As Tutorat Inc. L'information contenue dans ce site web est destinée exclusivement à des fins d'information de nature générale et peut faire l'objet de modifications sans préavis. Carré d'As Tutorat décline toute responsabilité relativement à toute inexactitude figurant dans l'information fournie et à toute perte ou dommage pouvant résulter de l'utilisation de l'ensemble ou de toute partie de ce site web. L'information incluse dans ce site Web n'a pas été vérifiée, à moins qu'il en soit spécifié autrement.
+          </p>
+
+          <p className="text-foreground mb-4">
+            Ce site Web est accessible pour votre usage légal, personnel et sans but commercial seulement. Vous pouvez imprimer ou télécharger ses pages Web pour votre usage personnel et sans but commercial, pourvu que vous ne modifiiez pas lesdites pages ou d'autres contenus, et que vous ne retiriez ou n'altériez pas toute marque d'identification visible ou non-visible, avis ou avertissement. Toute utilisation de ce site Web et de son contenu d'une autre façon ou à d'autres fins est interdite. Plus spécifiquement, ce site Web et son contenu ne peuvent être copiés, imités, reproduits, publiés à nouveau, téléversés, affichés, transmis, modifiés, indexés, catalogués, reflétés en site miroir ou distribués de quelque façon que ce soit, en tout ou en partie, sans avoir obtenu préalablement le consentement écrit de Carré d'As Tutorat.
+          </p>
+
+          <p className="text-foreground mb-4">
+            Carré d'As Tutorat n'accepte aucune responsabilité relativement à votre usage de ce site Web. Vous utilisez ce site web à vos propres risques. Le contenu de ce site Web est offert « tel quel » et « comme tel », sans aucune représentation, garantie ou condition, qu'elles soient exprimées ou implicites, incluant sans limitation aucune, les représentations, garanties et conditions, garanties ou représentations implicites relatives à nos services; l'exactitude ou l'exhaustivité; la responsabilité de ces éléments étant rejetée par Carré d'As Tutorat selon la mesure maximale permise par la loi.
+          </p>
+
+          <p className="text-foreground mb-4">
+            En toutes circonstances, Carré d'As Tutorat ne pourra être tenue responsable envers vous ou toute autre personne pour toute perte ou dommage (qu'ils soient directs, indirects, spéciaux, accidentels, économiques, dérivés, exemplaires ou punitifs) pouvant découler de, étant relié à, ou étant relatifs à l'usage, ou à l'impossibilité d'utiliser ce site web ou l'information qui y figure, ou toute action ou décision prise par vous ou tout autre personne liée à ce site web ou à cette information, ou tout usage non autorisé ou reproduction de ce site Web et de cette information.
+          </p>
+
+          <p className="text-foreground mb-4">
+            Carré d'As Tutorat ne saurait être tenue responsable pour tout dommage subi par le matériel informatique ou tout autre type d'équipement utilisé, ni pour tout virus pouvant infecter lesdits équipements suite à l'accès et à l'utilisation de ce site web, de même que le téléchargement de tout document ou fichier effectué sur ce site Web.
+          </p>
+
+          <p className="text-foreground mb-4">
+            Ce site Web, y compris tout son contenu, est la propriété de Carré d'As Tutorat et de ses entreprises affiliées. Il est ainsi protégé par les lois canadiennes sur la propriété intellectuelle, l'image de marque et autres lois applicables. Votre utilisation de ce site web ne vous transfère aucune forme de propriété et ne vous confère aucun droit relativement à ce site Web et à son contenu.
+          </p>
+
+          <p className="text-foreground mb-4">
+            Ce site Web contient des liens vers des sites Web de tierces parties. Ces liens sont fournis exclusivement à titre de courtoisie et Carré d'As Tutorat n'endosse pas nécessairement leur contenu. Carré d'As Tutorat n'est donc pas responsable des contenus et de l'exactitude des informations fournies par ces sites Web. Votre décision d'y accéder est prise à vos propres risques.
+          </p>
+
+          <p className="text-foreground mb-4">
+            Il est strictement interdit d'ajouter des liens vers ce site Web sans le consentement écrit et explicite de Carré d'As Tutorat. Si vous désirez demander la permission d'ajouter un lien vers ce site Web, veuillez envoyer un courriel au Dojo Financier, au <a href="mailto:admin@dojofinancier.com" className="text-primary hover:underline">admin@dojofinancier.com</a>. L'intégration en cadre Web, la transposition sur un site miroir, la récupération de données de ce site Web et de ses contenus, par quelque méthode que ce soit, sont strictement interdites.
+          </p>
+
+          <p className="text-foreground mb-4">
+            Ce site Web et ces conditions sont assujettis aux lois applicables dans la province du Québec au Canada. Toute dispute pouvant découler de ces conditions devra être résolue exclusivement devant les cours de justice de la province du Québec.
+          </p>
+        </article>
+      </div>
+      <Footer />
+    </div>
+  );
+}
+

@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { CourseSelection } from './CourseSelection';
 import { HelpTypeSelection } from './HelpTypeSelection';
 import { WhenNeededSelection } from './WhenNeededSelection';
@@ -8,6 +9,7 @@ import { FormData, Step } from '../types';
 import { checkCourseAvailability } from '../lib/supabase';
 
 export function Questionnaire() {
+  const location = useLocation();
   const [currentStep, setCurrentStep] = useState<Step>('course');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
@@ -35,6 +37,24 @@ export function Questionnaire() {
       return newData;
     });
   };
+
+  // Handle pre-selected course from article CTA
+  useEffect(() => {
+    const selectedCourse = (location.state as any)?.selectedCourse;
+    if (selectedCourse) {
+      // Pre-populate form data with selected course
+      updateFormData('courseCode', selectedCourse.code);
+      updateFormData('courseSlug', selectedCourse.slug);
+      updateFormData('courseDisplayText', selectedCourse.displayText);
+      updateFormData('courseTitle', selectedCourse.title);
+      updateFormData('course', selectedCourse.displayText);
+      updateFormData('courseActive', selectedCourse.active);
+      
+      // Automatically move to next step (helpType) since course is already selected
+      setCurrentStep('helpType');
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [location.state]);
 
   const submitForm = async (emailValue?: string) => {
     setIsSubmitting(true);
