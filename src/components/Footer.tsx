@@ -14,6 +14,13 @@ export function Footer() {
           </Link>
           <span className="text-muted-foreground/30">•</span>
           <Link 
+            to="/blog" 
+            className="hover:text-muted-foreground transition-colors"
+          >
+            Blog
+          </Link>
+          <span className="text-muted-foreground/30">•</span>
+          <Link 
             to="/politique-de-confidentialite" 
             className="hover:text-muted-foreground transition-colors"
           >

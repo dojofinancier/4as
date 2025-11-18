@@ -39,7 +39,7 @@ export function TermesEtConditions() {
           <h1 className="text-4xl font-bold text-foreground mb-8">Termes et conditions</h1>
           
           <p className="text-foreground mb-4">
-            Le Dojo Financier est une marque de Carré d'As Tutorat Inc. L'information contenue dans ce site web est destinée exclusivement à des fins d'information de nature générale et peut faire l'objet de modifications sans préavis. Carré d'As Tutorat décline toute responsabilité relativement à toute inexactitude figurant dans l'information fournie et à toute perte ou dommage pouvant résulter de l'utilisation de l'ensemble ou de toute partie de ce site web. L'information incluse dans ce site Web n'a pas été vérifiée, à moins qu'il en soit spécifié autrement.
+            L'information contenue dans ce site web est destinée exclusivement à des fins d'information de nature générale et peut faire l'objet de modifications sans préavis. Carré d'As Tutorat décline toute responsabilité relativement à toute inexactitude figurant dans l'information fournie et à toute perte ou dommage pouvant résulter de l'utilisation de l'ensemble ou de toute partie de ce site web. L'information incluse dans ce site Web n'a pas été vérifiée, à moins qu'il en soit spécifié autrement.
           </p>
 
           <p className="text-foreground mb-4">
@@ -67,7 +67,7 @@ export function TermesEtConditions() {
           </p>
 
           <p className="text-foreground mb-4">
-            Il est strictement interdit d'ajouter des liens vers ce site Web sans le consentement écrit et explicite de Carré d'As Tutorat. Si vous désirez demander la permission d'ajouter un lien vers ce site Web, veuillez envoyer un courriel au Dojo Financier, au <a href="mailto:admin@dojofinancier.com" className="text-primary hover:underline">admin@dojofinancier.com</a>. L'intégration en cadre Web, la transposition sur un site miroir, la récupération de données de ce site Web et de ses contenus, par quelque méthode que ce soit, sont strictement interdites.
+            Il est strictement interdit d'ajouter des liens vers ce site Web sans le consentement écrit et explicite de Carré d'As Tutorat. Si vous désirez demander la permission d'ajouter un lien vers ce site Web, veuillez envoyer un courriel à Carré d'As Tutorat, au <a href="mailto:admin@carredastutorat.com" className="text-primary hover:underline">admin@carredastutorat.com</a>. L'intégration en cadre Web, la transposition sur un site miroir, la récupération de données de ce site Web et de ses contenus, par quelque méthode que ce soit, sont strictement interdites.
           </p>
 
           <p className="text-foreground mb-4">
